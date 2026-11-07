@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sophie Kösslbacher · Links</title>
+<meta name="description" content="UGC-Portfolio, Brand Nova Kurse und meine Kanäle: alle Links von Sophie Kösslbacher an einem Ort.">
+<meta property="og:title" content="Sophie Kösslbacher · Links">
+<meta property="og:description" content="UGC-Portfolio, Brand Nova Kurse und meine Kanäle an einem Ort.">
+<meta property="og:image" content="assets/img/profil.jpg">
+<meta name="theme-color" content="#f0faf9">
+<style>
+@font-face{font-family:"Cormorant";font-weight:300;font-style:normal;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Cormorant";font-weight:300;font-style:italic;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-300-italic.woff2) format("woff2")}
+@font-face{font-family:"Cormorant";font-weight:400;font-style:normal;font-display:swap;src:url(assets/fonts/cormorant-garamond-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:300;font-display:swap;src:url(assets/fonts/inter-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:400;font-display:swap;src:url(assets/fonts/inter-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;font-display:swap;src:url(assets/fonts/inter-latin-500-normal.woff2) format("woff2")}
+
+:root{
+  --bg:#ffffff;
+  --bg-2:#f0faf9;
+  --card:rgba(255,255,255,.78);
+  --line:rgba(13,40,45,.12);
+  --text:#0f1719;
+  --muted:rgba(15,23,25,.62);
+  --accent-1:#12b5a5;
+  --accent-2:#3a9be6;
+  --accent-dark:#0b9e90;
+  --grad:linear-gradient(90deg,var(--accent-1),var(--accent-2));
+  --grad-text:linear-gradient(90deg,#0b9e90,#2b86d4);
+  --serif:"Cormorant",Georgia,serif;
+  --sans:"Inter",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{min-height:100dvh;background:var(--bg);color:var(--text);font-family:var(--sans);font-weight:300;font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden;position:relative}
+body::before,body::after{content:"";position:fixed;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(10px)}
+body::before{width:520px;height:520px;right:-220px;top:-200px;background:radial-gradient(circle,rgba(18,181,165,.22),transparent 65%)}
+body::after{width:560px;height:560px;left:-260px;bottom:-240px;background:radial-gradient(circle,rgba(58,155,230,.16),transparent 65%)}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+em{font-style:italic;background:var(--grad-text);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.06em}
+
+main{max-width:520px;margin:0 auto;padding:calc(48px + env(safe-area-inset-top)) 16px 28px}
+
+/* Profil */
+.profile{text-align:center;margin-bottom:36px}
+.avatar{width:124px;height:124px;margin:0 auto 20px;padding:3px;border-radius:50%;background:var(--grad);box-shadow:0 20px 50px rgba(13,70,80,.18)}
+.avatar img{width:100%;height:100%;object-fit:cover;object-position:center 30%;border-radius:50%;border:3px solid #fff}
+.profile h1{font-family:var(--serif);font-weight:300;font-size:44px;line-height:1;letter-spacing:-.01em}
+.profile .tag{margin-top:12px;font-size:11px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:var(--muted)}
+.profile p.bio{margin:14px auto 0;max-width:340px;font-family:var(--serif);font-style:italic;font-size:21px;line-height:1.3;color:var(--muted)}
+.icons{display:flex;justify-content:center;gap:12px;margin-top:20px}
+.icons a{width:46px;height:46px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line);background:#fff;transition:border-color .2s,transform .2s}
+.icons a:hover{border-color:var(--accent-1);transform:translateY(-2px)}
+
+svg.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* Bereiche */
+section{margin-top:30px}
+.label{display:flex;align-items:center;gap:12px;margin:0 4px 12px;font-size:11px;font-weight:500;letter-spacing:.26em;text-transform:uppercase;color:var(--muted)}
+.label::before{content:"";width:24px;height:1px;background:var(--grad)}
+.stack{display:flex;flex-direction:column;gap:12px}
+
+/* Große Karte mit Bild */
+.feature{display:flex;align-items:stretch;height:136px;border-radius:24px;overflow:hidden;background:var(--card);border:1px solid var(--line);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 18px 44px rgba(13,70,80,.10);transition:transform .25s,box-shadow .25s,border-color .25s}
+.feature:hover{transform:translateY(-2px);border-color:rgba(18,181,165,.5);box-shadow:0 24px 54px rgba(13,70,80,.16)}
+.feature:active{transform:scale(.985)}
+.feature img{width:96px;height:100%;flex:0 0 96px;object-fit:cover;object-position:center 40%}
+.feature .txt{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;padding:16px 10px 16px 16px}
+.feature b{font-family:var(--serif);font-weight:400;font-size:26px;line-height:1.05;white-space:nowrap}
+.feature span{margin-top:6px;font-size:14px;color:var(--muted);line-height:1.4}
+.feature .go{align-self:center;margin-right:14px;width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:50%;background:var(--text);color:#fff;transition:background .2s}
+.feature:hover .go{background:var(--accent-dark)}
+.go svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* Unterpunkte (Kurse) */
+.subs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sub{display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:10px 12px;border-radius:18px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:400;line-height:1.25;transition:border-color .2s,transform .2s}
+.sub:hover{border-color:var(--accent-1);transform:translateY(-2px)}
+.sub:active{transform:scale(.97)}
+
+/* Normale Buttons */
+.btn{display:flex;align-items:center;gap:14px;min-height:64px;padding:12px 18px 12px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);transition:border-color .2s,transform .2s,background .2s}
+.btn:hover{border-color:var(--accent-1);transform:translateY(-2px)}
+.btn:active{transform:scale(.985)}
+.btn .ic{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;border-radius:50%;background:var(--bg-2)}
+.btn .t{flex:1;min-width:0}
+.btn b{display:block;font-weight:500;font-size:15.5px;line-height:1.25}
+.btn small{display:block;font-size:13px;color:var(--muted)}
+.btn .arr{color:var(--muted)}
+.btn.dark{background:var(--text);color:#fff;border-color:var(--text)}
+.btn.dark .ic{background:rgba(255,255,255,.12)}
+.btn.dark small,.btn.dark .arr{color:rgba(255,255,255,.7)}
+.btn.dark:hover{background:var(--accent-dark);border-color:var(--accent-dark)}
+
+/* Footer */
+footer{margin-top:44px;text-align:center;font-size:12.5px;color:var(--muted)}
+footer .logo{font-family:var(--serif);font-size:22px;color:var(--text);margin-bottom:8px}
+footer button{background:none;border:0;color:inherit;font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px;padding:6px 4px}
+footer button:hover{color:var(--text)}
+.legal{display:none;margin-top:18px;padding:20px;border-radius:20px;background:var(--card);border:1px solid var(--line);text-align:left;font-size:13px;line-height:1.7}
+.legal.open{display:block}
+.legal h2{font-family:var(--serif);font-weight:400;font-size:24px;color:var(--text);margin-bottom:8px}
+.legal p{margin-bottom:12px}
+.legal p:last-child{margin-bottom:0}
+.legal a{text-decoration:underline;text-underline-offset:3px}
+
+@media(min-width:600px){main{padding-top:72px}.feature{height:150px}.feature img{width:132px;flex-basis:132px}}
+@media(max-width:350px){.feature b{font-size:23px}.feature img{width:88px;flex-basis:88px}}
+
+</style>
+</head>
+<body>
+<main>
+
+  <header class="profile">
+    <div class="avatar"><img src="assets/img/profil.jpg" alt="Sophie Kösslbacher" width="240" height="240"></div>
+    <h1>Sophie Kösslbacher</h1>
+    <div class="tag">UGC Creatorin · Ambassador · Kurse</div>
+    <p class="bio">Ich mache Content für Marken und zeige dir, wie ich <em>arbeite</em>.</p>
+    <div class="icons">
+      <a href="https://www.instagram.com/sophiekoesslbacher/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6"/></svg></a>
+      <a href="https://www.tiktok.com/@phiele333" target="_blank" rel="noopener" aria-label="TikTok"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3.5v11a4 4 0 1 1-4-4"/><path d="M14 3.5c.4 2.7 2.3 4.6 5 4.8"/></svg></a>
+      <a href="https://www.youtube.com/@phiele333" target="_blank" rel="noopener" aria-label="YouTube"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.2 9.4v5.2l4.5-2.6z"/></svg></a>
+      <a href="mailto:phieluxe@gmail.com" aria-label="E-Mail"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></a>
+    </div>
+  </header>
+
+  <section>
+    <div class="label">Für Marken</div>
+    <div class="stack">
+      <a class="feature" href="https://phieluxe.github.io/ugc-portfolio/">
+        <img src="assets/img/ugc-portfolio.jpg" alt="" width="200" height="356">
+        <div class="txt"><b>UGC-Portfolio</b><span>Videos und Fotos, die ich für Marken mache</span></div>
+        <span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="btn" href="mailto:phieluxe@gmail.com?subject=Kooperationsanfrage">
+        <span class="ic"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="3"/><path d="M3.5 7l8.5 6 8.5-6"/></svg></span>
+        <span class="t"><b>Kooperation anfragen</b><small>phieluxe@gmail.com</small></span>
+        <span class="arr">→</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Kurse &amp; digitale Produkte</div>
+    <div class="stack">
+      <a class="feature" href="https://phieluxe.github.io/brand-nova/">
+        <img src="assets/img/brand-nova.jpg" alt="" width="200" height="356">
+        <div class="txt"><b>Brand Nova</b><span>Meine Kurse und die Community</span></div>
+        <span class="go"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <div class="subs">
+        <a class="sub" href="https://phieluxe.github.io/brand-nova/#ambassador">Ambassador-Programme</a>
+        <a class="sub" href="https://phieluxe.github.io/brand-nova/#ugc">UGC-Videokurs</a>
+        <a class="sub" href="https://phieluxe.github.io/brand-nova/#ki">Arbeiten mit KI</a>
+        <a class="sub" href="https://phieluxe.github.io/brand-nova/#community">Community</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Meine Kanäle</div>
+    <div class="stack">
+      <a class="btn dark" href="https://www.instagram.com/sophiekoesslbacher/" target="_blank" rel="noopener">
+        <span class="ic"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6"/></svg></span>
+        <span class="t"><b>Instagram</b><small>@sophiekoesslbacher</small></span>
+        <span class="arr">→</span>
+      </a>
+      <a class="btn" href="https://www.tiktok.com/@phiele333" target="_blank" rel="noopener">
+        <span class="ic"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3.5v11a4 4 0 1 1-4-4"/><path d="M14 3.5c.4 2.7 2.3 4.6 5 4.8"/></svg></span>
+        <span class="t"><b>TikTok</b><small>@phiele333</small></span>
+        <span class="arr">→</span>
+      </a>
+      <a class="btn" href="https://www.youtube.com/@phiele333" target="_blank" rel="noopener">
+        <span class="ic"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.2 9.4v5.2l4.5-2.6z"/></svg></span>
+        <span class="t"><b>YouTube</b><small>@phiele333</small></span>
+        <span class="arr">→</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="logo">Sophie Kösslbacher</div>
+    <div><button data-legal="impressum">Impressum</button> · <button data-legal="datenschutz">Datenschutz</button></div>
+
+    <div class="legal" id="impressum">
+      <h2>Impressum</h2>
+      <p>PHIELUXE MARKETING AGENCY LIMITED<br>
+      Private Company Limited by Shares (Ltd.)<br>
+      Palaion Patron Germanou 11, 8011 Paphos, Zypern<br>
+      Registernummer: HE 485483 · Republik Zypern<br>
+      USt-IdNr.: 60294853K<br>
+      Director &amp; Secretary: Sophie Kösslbacher<br>
+      Tätigkeit: Marketing- und Werbedienstleistungen</p>
+      <p>E-Mail: <a href="mailto:phieluxe@gmail.com">phieluxe@gmail.com</a><br>Telefon: +43 699 17173433</p>
+      <p>Beschwerden kannst du jederzeit direkt an die oben genannte E-Mail-Adresse richten.</p>
+    </div>
+    <div class="legal" id="datenschutz">
+      <h2>Datenschutz</h2>
+      <p>Diese Seite setzt keine Cookies, verwendet keine Tracking- oder Analyse-Tools und lädt keine Schriften oder Skripte von fremden Servern. Sie wird über GitHub Pages (GitHub Inc., USA) ausgeliefert. Dabei verarbeitet GitHub technisch notwendige Daten (z. B. IP-Adresse, Zeitpunkt des Zugriffs), um die Seite auszuliefern und abzusichern (Art. 6 Abs. 1 lit. f DSGVO). Diese Daten können dabei in die USA übermittelt werden.</p>
+      <p>Die Links führen zu Instagram, TikTok und YouTube sowie zu meinen eigenen Seiten. Dort gelten jeweils deren Datenschutzbestimmungen.</p>
+      <p>Wenn du mir eine E-Mail schreibst, verarbeite ich deine Angaben ausschließlich zur Bearbeitung deiner Anfrage. Verantwortlich: PHIELUXE MARKETING AGENCY LIMITED, Kontakt siehe Impressum. Du hast das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung sowie auf Beschwerde bei einer Datenschutzbehörde.</p>
+    </div>
+  </footer>
+
+</main>
+<script>
+document.querySelectorAll('[data-legal]').forEach(b=>b.addEventListener('click',()=>{
+  const p=document.getElementById(b.dataset.legal);
+  document.querySelectorAll('.legal').forEach(l=>{if(l!==p)l.classList.remove('open')});
+  p.classList.toggle('open');
+  if(p.classList.contains('open'))p.scrollIntoView({behavior:'smooth',block:'start'});
+}));
+const h=document.getElementById(location.hash.slice(1));
+if(h&&h.classList.contains('legal')){h.classList.add('open');h.scrollIntoView({block:'start'})}
+</script>
+</body>
+</html>
